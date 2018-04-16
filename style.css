@@ -1,0 +1,44 @@
+html, body {
+  text-align: center;
+  background: #1A1A1D;
+  font-family: "Cuprum", "sans-seriff"; }
+
+audio {
+  display: none; }
+
+h1 {
+  color: #950740;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase; }
+
+.container {
+  padding: 20px 0px;
+  text-align: center; }
+
+.key {
+  text-align: center;
+  border: 5px solid #6F2232;
+  color: #C3073F;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 5px 20px;
+  display: inline-block;
+  transition: all 0.1s; }
+
+.pressed {
+  border: 5px solid #950740;
+  transform: scale(1.1);
+  background-color: #6F2232; }
+
+.title {
+  margin-top: 15%;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 32px;
+  display: block; }
+
+.sound {
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */
